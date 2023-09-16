@@ -1,0 +1,34 @@
+<div class="col">
+  <div class="card h-100">
+    <div class="card-img-container">
+      <img [src]="url" class="card-img-top" alt="..." />
+    </div>
+    <div class="card-body">
+      <h5 class="card-title text-center text-danger">{{ name }}</h5>
+      <div class="card-header-container d-flex justify-content-between mb-3">
+        <div class="card-header d-flex align-items-center">
+          <p class="my-0 card-subtitle text-primary">HP: &nbsp;</p>
+          <span class="text-secondary"> {{ hp }}</span>
+        </div>
+        <div class="card-header d-flex align-items-center">
+          <p class="my-0 card-subtitle text-primary">XP: &nbsp;</p>
+          <span class="text-secondary"> {{ xp }}</span>
+        </div>
+      </div>
+      <div class="card-details d-flex justify-content-between">
+        <div class="card-detail d-flex flex-column align-items-center">
+          <h5 class="card-subtitle text-success">Attack</h5>
+          <b class="text-info">{{ attack }}</b>
+        </div>
+        <div class="card-detail d-flex flex-column align-items-center">
+          <h5 class="card-subtitle text-success">Defense</h5>
+          <b class="text-info">{{ defense }}</b>
+        </div>
+        <div class="card-detail d-flex flex-column align-items-center">
+          <h5 class="card-subtitle text-success">Speed</h5>
+          <b class="text-info">{{ speed }}</b>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

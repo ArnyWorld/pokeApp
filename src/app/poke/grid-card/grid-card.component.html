@@ -1,0 +1,15 @@
+<app-shared *ngIf="state; else dataRecovered" />
+<ng-template #dataRecovered>
+  <div class="container">
+    <h2 class="text-light display-3 text-center mb-4">Poke API</h2>
+    <div
+      class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 d-flex justify-content-center"
+    >
+      <app-card *ngFor="let pokemon of pokeList" [info]="pokemon" />
+    </div>
+  </div>
+  <div class="buttons d-flex justify-content-center">
+    <button [disabled]="page === 0" (click)="prevPage()"><</button>
+    <button (click)="nextPage()">></button>
+  </div>
+</ng-template>
