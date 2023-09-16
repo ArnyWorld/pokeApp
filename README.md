@@ -8,4 +8,4 @@
 3. Ejecutar el comando npm install
 4. Ejecutar el comando ng serve -o
    
-![pokeApi](./src/assets/pokeApp.jpg)
+![pokeApi](./src/assets/pokeApi.jpg)
