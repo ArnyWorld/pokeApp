@@ -1,7 +1,8 @@
 <div class="col">
   <div class="card h-100">
     <div class="card-img-container">
-      <img [src]="url" class="card-img-top" alt="..." />
+      <lazy-image [pokeUrl]="url" [pokeAlt]="name" class="image-poke" />
+      <!-- <img [src]="url" class="card-img-top" alt="..." /> -->
     </div>
     <div class="card-body">
       <h5 class="card-title text-center text-danger">{{ name }}</h5>

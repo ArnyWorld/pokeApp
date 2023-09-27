@@ -1,0 +1,8 @@
+<img
+  [src]="pokeUrl"
+  [alt]="pokeAlt || 'No title'"
+  (load)="onLoad()"
+  class="card-img-top card-img-movie"
+  [ngStyle]="{ display: hasLoaded ? '' : 'none' }"
+/>
+<img *ngIf="!hasLoaded" src="/assets/rings.svg" class="img-loader" alt="" />

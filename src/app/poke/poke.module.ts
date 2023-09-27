@@ -4,6 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CardComponent } from './card/card.component';
 import { GridCardComponent } from './grid-card/grid-card.component';
 import { SharedComponent } from '../shared/shared.component';
+import { LazyImageComponent } from './lazy-image/lazy-image.component';
 
 
 
@@ -11,7 +12,8 @@ import { SharedComponent } from '../shared/shared.component';
   declarations: [
     CardComponent,
     GridCardComponent,
-    SharedComponent
+    SharedComponent,
+    LazyImageComponent
   ],
   imports: [
     CommonModule,

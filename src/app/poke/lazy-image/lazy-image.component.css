@@ -1,0 +1,6 @@
+.card-img-top{
+  width: 100%;
+  height: 100%;
+  transition: transform .5s ease;
+
+}
